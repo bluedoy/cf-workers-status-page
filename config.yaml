@@ -18,7 +18,16 @@ monitors:
   - id: viajump.com
     name: viajump.com
     url: 'https://viajump.com/'
+    
+  - id: api.viajump.com
+    name: api.viajump.com
+    url: 'https://api.viajump.com'
+    method: GET
+    expectStatus: 200
   
   - id: buzzislam.com
     name: buzzislam.com
+    description: 'Listen Reflect Share'
     url: 'https://tunein.buzzislam.com/radio/8000/radio.mp3'
+    method: GET
+    expectStatus: 200
